@@ -1,5 +1,8 @@
 package com.animals.speak.factory;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Fox implements Animal {
 
 	@Override
